@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Find & Replace in Multiple Files
+find . -name "*tesfile" | sed -e "p;s/test/spec/" | xargs -n2 
+
+
