@@ -1,0 +1,9 @@
+/home/ec2-user/scripts
+
+Thu May  5 13:38:21 UTC 2022
+13:38:21
+
+ec2-user
+
+189
+4.0K	michaelalo-scripting-activity3.sh
