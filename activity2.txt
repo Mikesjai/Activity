@@ -1,6 +1,4 @@
 #!/bin/sh
 
 # Find & Replace in Multiple Files
-find . -name "*tesfile" | sed -e "p;s/test/spec/" | xargs -n2 
-
-
+grep -rl '.20220407' ./ | xargs sed -i 's/.20220407/.20220407/g'
